@@ -1,105 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Profile</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anjana P - Portfolio</title>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f4f6f9;
-      color: #333;
-    }
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
 
-    header {
-      background: #4a90e2;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
+body{
+    background:#f4f4f4;
+    color:#333;
+}
 
-    section {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
+header{
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
 
-    .card {
-      background: white;
-      padding: 20px;
-      margin-top: 15px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
+nav{
+    background:#005fa3;
+    text-align:center;
+    padding:10px;
+}
 
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: #222;
-      color: white;
-      margin-top: 20px;
-    }
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
 
-    .btn {
-      display: inline-block;
-      padding: 10px 15px;
-      background: #4a90e2;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 10px;
-    }
+section{
+    max-width:900px;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
 
-    .btn:hover {
-      background: #357abd;
-    }
-  </style>
+h2{
+    color:#0077cc;
+    margin-bottom:10px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+footer{
+    text-align:center;
+    background:#0077cc;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <h1>ANJANA P</h1>
-  <p>BCA Student | Aspiring Animator | Future Developer</p>
+    <h1>Anjana P</h1>
+    <p>BCA Student | Python | Java | PHP</p>
 </header>
 
-<section>
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-  <div class="card">
+<section id="about">
     <h2>About Me</h2>
     <p>
-      Hello! I am a passionate student interested in animation, coding, and technology.
-      I am currently learning web development and planning to start a YouTube animation channel.
+        Hello! I am Anjana P, a BCA student passionate about programming,
+        web development, and technology. I enjoy learning new technologies
+        and building innovative projects.
     </p>
-  </div>
+</section>
 
-  <div class="card">
-    <h2>Skills</h2>
+<section id="education">
+    <h2>Education</h2>
     <ul>
-      <li>HTML, CSS (Beginner)</li>
-      <li>Video Editing (Learning)</li>
-      <li>Animation (Starting Level)</li>
-      <li>Problem Solving</li>
+        <li>Bachelor of Computer Applications (BCA)</li>
+        <li>Currently pursuing degree</li>
     </ul>
-  </div>
+</section>
 
-  <div class="card">
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>PHP</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>MySQL</li>
+    </ul>
+</section>
+
+<section id="projects">
     <h2>Projects</h2>
-    <p>Coming soon... I am currently working on my first animation project 🎬</p>
-  </div>
+    <ul>
+        <li>Student Management System</li>
+        <li>Online Library Management System</li>
+        <li>Personal Portfolio Website</li>
+    </ul>
+</section>
 
-  <div class="card">
+<section id="contact">
     <h2>Contact</h2>
-    <p>Email: yourname@email.com</p>
-    <a class="btn" href="#">Connect with me</a>
-  </div>
-
+    <p>Email: anjana@example.com</p>
+    <p>GitHub: github.com/yourusername</p>
 </section>
 
 <footer>
-  <p>© 2026 Your Name | All Rights Reserved</p>
+    <p>&copy; 2026 Anjana P. All Rights Reserved.</p>
 </footer>
 
 </body>
